@@ -1,0 +1,59 @@
+.tiny
+{
+	width: 50px;
+	height: 50px;
+	margin: 20px;
+}
+
+#good
+{
+	font-family: Arial;
+	font-size: 18pt;
+	border: 4px black dotted;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+#bad
+{
+	font-size: 48pt;
+	font-family: "Comic Sans MS";
+	animation: rainbow;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;	
+}
+
+#TOI
+{
+	float: right;
+	width: 317px;
+	height: 300px;
+	position:relative;
+}
+
+.texted
+{
+	position: absolute;
+	width: 317px;
+	height: 300px;
+}
+
+.overlap
+{
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	width: 100%;
+	color: white;
+}
+
+@keyframes rainbow
+{
+	0% {color: #FF0000;}
+	17% {color: #FFFF00;}
+	34% {color: #00FF00;}
+	51% {color: #00FFFF;}
+	68% {color: #0000FF;}
+	85% {color: #FF00FF;}
+	100% {color: #FF0000;}
+}
